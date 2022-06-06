@@ -1,0 +1,17 @@
+
+#include <stdio.h>
+ 
+ 
+int main (void)
+{
+    int num1,result;
+ 
+    
+    scanf("%d", &num1);
+    result = ~num1;
+    
+    printf("%d",result);
+ 
+    
+    return 0;
+}
